@@ -35,6 +35,7 @@ function App() {
         <input placeholder="Digite o CEP" onChange={manipularEndereco} />
         <ul>
           <li>CEP: {endereco.cep}</li>
+          <li>Rua: {endereco.rua}</li>
           <li>Bairro: {endereco.bairro}</li>
           <li>Cidade: {endereco.cidade}</li>
           <li>Estado: {endereco.estado}</li>
